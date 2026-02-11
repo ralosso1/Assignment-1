@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Converter</title>
+    <link rel="stylesheet" href="a1.css"> 
+    <script src="a1.js" defer></script>
+</head>
+<body>
+<header>
+        <div class="topnav">
+            <a href="a1.html">Personal Page</a>
+            <a href="gradeCon.html">Grade Converter</a>
+            <a class="active" href="tempCon.html">Temperature Converter</a>
+            <a href="staff.html">Staff Page</a>
+        </div>
+    </header>
+<main>
+        <h1>Temperature Converter</h1>
+        <p>Enter your temperature in the correct box!</p>
+
+        <div class="converter-container">
+            
+            <div class="input-group">
+                <label for="celsius">Celsius (°C):</label>
+                <input type="number" id="celsius" oninput="ConvertFromCelsius()" placeholder="">
+            </div>
+
+            <div class="input-group">
+                <label for="fahrenheit">Fahrenheit (°F):</label>
+                <input type="number" id="fahrenheit" oninput="ConvertFromFahrenheit()" placeholder="">
+            </div>
+
+            <div class="input-group">
+                <label for="kelvin">Kelvin (K):</label>
+                <input type="number" id="kelvin" oninput="ConvertFromKelvin()" placeholder="">
+            </div>
+        </div>
+</main>
+    <footer>
+        <p>Adoli Tesfu Copyright © 2026 </p>
+    </footer>
+</body>
+</html>

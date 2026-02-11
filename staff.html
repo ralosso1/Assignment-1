@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Converter</title>
+    <link rel="stylesheet" href="a1.css"> 
+    <script src="a1.js" defer></script>
+</head>
+<body>
+<header>
+        <div class="topnav">
+            <a href="a1.html">Personal Page</a>
+            <a href="gradeCon.html">Grade Converter</a>
+            <a href="tempCon.html">Temperature Converter</a>
+            <a class="active" href="staff.html">Staff Page</a>
+        </div>
+ </header>
+    <main>
+        <h1>Staff Directory</h1>
+        
+        <div class="controls">
+            <button onclick="SortByName()">Sort by Name</button>
+            <button onclick="SortBySalary()">Sort by Salary</button>
+        </div>
+
+        <table id="staff-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Role</th>
+                    <th>City</th>
+                    <th>ID</th>
+                    <th>Date</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody id="staff-table-body">
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>Adoli Tesfu Copyright © 2026 </p>
+    </footer>
+</body>
+</html>
